@@ -1,0 +1,184 @@
+body{
+    display: grid;
+    grid-template-columns: 8% 92%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajadeinput button{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#idlupa{
+    background-color: rgb(94, 92, 92);
+    border-radius: 0px 25px 25px 0px;
+    width: 40px;
+    height: 31px;
+    margin-left: -8px;
+    border:none;
+}
+
+#idlupa img{
+    width: 32px;
+    height: 30px;
+}
+
+#micro{
+    border-radius: 50px;
+    background-color: rgb(94, 92, 92);
+}
+
+#micro img{
+    width: 32px;
+    height: 30px;
+}
+
+nav{
+    display: flex; 
+    justify-content:space-between;
+}
+
+.cajadeinput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cajadeinput div{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    
+}
+
+.cajadeinput input{
+    width: 465px;
+    height: 28px;
+    padding-left: 8px;
+    border-radius: 25px 0px 0px 25px;
+    border:none;
+    color: black;
+}
+
+.cajadeinput input::placeholder{
+    color: black;
+}
+
+.cajadeinput input:focus{
+    outline: none;
+    border:1px solid rgb(3, 69, 122); 
+}
+
+.acciondeusuario{
+    display: flex;
+    align-items: center;
+}
+
+.acciondeusuario img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#barraderecomendacion{
+    display: flex;
+}
+
+.columnavideo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filainferiorvideo{
+    display: flex;
+    gap: 8px;
+}
+
+.imgcanal{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.textovideo{
+    margin: 0px;
+    top: 0px;
+}
+
+.textovideo h3{
+    margin-top: 0px;
+    width: 230px;
+    overflow-x: hidden;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.textovideo p{
+    font-size: 12px;
+}
+
+.imgvideo{
+    border-radius: 15px;
+    width: 275px;
+}
+
+.canal{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.vistas{
+    margin-top: 0px;
+}
+
+#cuadriculadevideo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.botonRecomendacion{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+.botonRecomendacion:hover{
+    background-color:rgb(44, 44, 44);
+}
+
+#barraDeRecomendados{
+    display: flex;
+    gap: 5px;
+}
+
+#home{
+    margin-top: 25px;
+}
+
+#burgermenu{
+    margin-top: 15px;
+}
+
