@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+    top: 0px;
+    margin: 0px;
+}
+
 body{
     display: grid;
     grid-template-columns: 8% 92%;
-    background-color: black;
+    background-color: rgb(14,15,14);
     color: rgb(255, 255, 255);
-    font-family: arial;
+    font-family: sans-serif;
 }
 
 aside{
@@ -28,22 +34,21 @@ aside div{
 }
 
 #idlupa{
-    background-color: rgb(94, 92, 92);
+    background-color: rgb(34,34,34);
     border-radius: 0px 25px 25px 0px;
-    width: 40px;
-    height: 31px;
+    width: 60px;
+    height: 40px;
     margin-left: -8px;
     border:none;
 }
 
 #idlupa img{
-    width: 32px;
-    height: 30px;
+    width: 55px;
 }
 
 #micro{
     border-radius: 50px;
-    background-color: rgb(94, 92, 92);
+    background-color: rgb(24,24,24);
 }
 
 #micro img{
@@ -66,35 +71,42 @@ nav{
     display: flex;
     align-items: center;
     width: 500px;
-    
 }
 
 .cajadeinput input{
-    width: 465px;
-    height: 28px;
+    width: 480px;
+    height: 40px;
     padding-left: 8px;
     border-radius: 25px 0px 0px 25px;
     border:none;
     color: black;
+    background-color: rgb(14,15,14);
 }
 
 .cajadeinput input::placeholder{
-    color: black;
+    color: rgb(114, 114, 113);
+}
+
+.cajadeinput input{
+    outline: none;
+    border:1px solid rgb(49,49,48);
 }
 
 .cajadeinput input:focus{
     outline: none;
-    border:1px solid rgb(3, 69, 122); 
+    border: 1px solid rgb(49, 89, 223);
+    color: white;
 }
 
 .acciondeusuario{
     display: flex;
     align-items: center;
+    gap: 25px;
 }
 
 .acciondeusuario img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -134,6 +146,7 @@ nav{
 
 .textovideo p{
     font-size: 12px;
+    color: rgb(171,171,170);
 }
 
 .imgvideo{
@@ -152,26 +165,27 @@ nav{
 
 #cuadriculadevideo{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4,25%);
     margin-top: 15px;
     margin-left: 10px;
 }
 
 .botonRecomendacion{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(39,38,38);
     color: white;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 9px;
     border: none;
+    gap: 40px;
 }
 
 .botonRecomendacion:hover{
-    background-color:rgb(44, 44, 44);
+    background-color:rgb(63,63,63);
 }
 
 #barraDeRecomendados{
     display: flex;
-    gap: 5px;
+    gap: 8px;
 }
 
 #home{
@@ -182,3 +196,18 @@ nav{
     margin-top: 15px;
 }
 
+#burgermenu:hover{
+    border-radius: 50px;
+}
+
+.lateral{
+    width: 25px;
+}
+
+#navbar{
+    width: 140px;
+}
+
+.barralateral{
+    padding: 5px;
+}

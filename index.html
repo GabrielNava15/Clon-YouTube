@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./YT-Images/youtube.png">
         <title>YouTube</title>
     </head>
     <body>
@@ -12,26 +13,34 @@
         <aside>
             <!--Burger Menu-->
             <div id="burgermenu">
-                <img src="./Iconos-Imagenes/BurgerMenu.png" alt="Menu">
+                <img src="/Clon-YT/YT-Images/BurgerMenu.png" alt="Menu">
             </div>
             <!--Home-->
             <div id="home">
-                <img src="./Iconos-Imagenes/HomeIcon.png" alt="">
-                <p>Inicio</p>
+                <a href="https://www.youtube.com/">
+                    <img class="lateral" src="/Clon-YT/YT-Images/HomeIcon.png" alt="">
+                </a>
+                <p id="principal">Principal</p>
             </div>
-            <!--shorts-->
-            <div>
-                <img src="./Iconos-Imagenes/Shorts.png" alt="">
+            <!--Shorts-->
+            <div id="shorts">
+                <a href="https://www.youtube.com/shorts/k10hRSM5e50">
+                    <img class="lateral" src="/Clon-YT/YT-Images/Shorts.png" alt="">
+                </a>
                 <p>Shorts</p>
             </div>
             <!--Suscripciones-->
-            <div>
-                <img src="./Iconos-Imagenes/Suscripciones.png" alt="">
+            <div id="suscripciones">
+                <a href="https://www.youtube.com/feed/subscriptions">
+                    <img class="lateral" src="/Clon-YT/YT-Images/Suscripciones.png" alt="">
+                </a>
                 <p>Suscripciones</p>
             </div>
             <!--Biblioteca-->
-            <div>
-                <img src="./Iconos-Imagenes/Biblioteca.png" alt="">
+            <div id="biblioteca">
+                <a href="https://www.youtube.com/feed/library">
+                    <img class="lateral" src="/Clon-YT/YT-Images/Biblioteca.png" alt="">
+                </a>
                 <p>Biblioteca</p>
             </div>
         </aside>
@@ -43,7 +52,7 @@
             <nav>
                 <!--Logotipo de Youtube-->
                 <div>
-                    <img src="./Iconos-Imagenes/LogoNavBar.png" alt="">
+                    <img id="navbar" src="/Clon-YT/YT-Images/LogoNavBar.png" alt="">
                 </div>
                 <!--Input y Boton de microfono-->
                 <div class="cajadeinput">
@@ -51,19 +60,19 @@
                     <div>
                         <input type="text" placeholder="Buscar">
                         <button id="idlupa">
-                            <img src="./Iconos-Imagenes/Lupa.png" alt="Lupa">
+                            <img src="/Clon-YT/YT-Images/Lupa.png" alt="Lupa">
                         </button>
                     </div>
                     <!--Microfono-->
                     <button id="micro">
-                        <img src="./Iconos-Imagenes/VoiceSearch.png" alt="Microfono">
+                        <img src="/Clon-YT/YT-Images/VoiceSearch.png" alt="Microfono">
                     </button>
                 </div>
                 <!--Acciones de usuario-->
                 <div class="acciondeusuario">
-                    <img src="./Iconos-Imagenes/SubirVideo.png" alt="Subir Video">
-                    <img src="./Iconos-Imagenes/Notificaciones.png" alt="Notificaciones">
-                    <img src="./Iconos-Imagenes/channels4_profile.jpg" alt="Perfil">
+                    <img src="/Clon-YT/YT-Images/SubirVideo.png" alt="Subir Video">
+                    <img src="/Clon-YT/YT-Images/Notificaciones.png" alt="Notificaciones">
+                    <img src="/Clon-YT/YT-Images/channels4_profile.jpg" alt="Perfil">
                 </div>
             </nav>
 
@@ -79,6 +88,8 @@
                 <button class="botonRecomendacion">En tiempo real</button>
                 <button class="botonRecomendacion">Grand Theft Auto V</button>
                 <button class="botonRecomendacion">Simulaciones</button>
+                <button class="botonRecomendacion">El Rubius</button>
+                <button class="botonRecomendacion">Carrera</button>
             </section>
 
             <!--Cuadricula de videos-->
@@ -87,252 +98,274 @@
                 <!--Video 1-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=9ToxftG8fkw&t=1s">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/danirep.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfildanirep.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>CARA A CARA PERO SIN NORMAS!! LOCURA EXTREMA! - GTA 5 ONLINE</h3>
+                            <p class="canal">DaniRep | +6 Vídeos Diarios De GTA 5 Online!</p>
+                            <p class="vistas">112,992 vistas  hace 1 día</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 2-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=5OR1Rch4TWM">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/xpresstv.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilxpresstv.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>25 Cosas que no sabías en 5 minutos ⏰ [161]</h3>
+                            <p class="canal">XpressTV</p>
+                            <p class="vistas">757,327 vistas  hace 1 día</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 3-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=BWcwTGgIF2c">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/rubius.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilrubius.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>PERDIDO EN UN BOSQUE CON CANIBALES | Sons of the Forest</h3>
+                            <p class="canal">Rubius Z</p>
+                            <p class="vistas">1 M de vistas  hace 1 día</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 4-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=7qCIn39k7zs">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/rubius2.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilrubius.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>EL FINAL DE KARMALAND V</h3>
+                            <p class="canal">Rubius Z</p>
+                            <p class="vistas">1.3 M de vistas  hace 2 meses</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 5-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=1cLFLTQzM0Y">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/beemerfam.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilbeemerfam.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>¡Construyendo el BMW M4 de mis sueños! *INSTALANDO RUEDAS DE 20 PULGADAS*</h3>
+                            <p class="canal">Beemer Fam</p>
+                            <p class="vistas">14,006 vistas  hace 1 año</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 6-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=n1eF1hQ2LRc">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/make.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilmake.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>COMO DERROTAR A PLANTERA EN TERRARIA 1.4 LO MAS RAPIDO POSIBLE</h3>
+                            <p class="canal">MAKE</p>
+                            <p class="vistas">75,052 vistas  hace 10 meses</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 7-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=v6r0VvdVwZw&t=638s">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/pelicanger.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilpeli.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>REACCIONANDO A LOS "EMOS" DE LA ROSA DE GUADALUPE 🤣 Ft. Andresitow</h3>
+                            <p class="canal">Peli</p>
+                            <p class="vistas">237,383 vistas  hace 3 días</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 8-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=hXzj64i3wfo">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/danirep2.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfildanirep.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>CARRERA TROLL! NO VEO NADA!! - GTA V ONLINE</h3>
+                            <p class="canal">DaniRep | +6 Vídeos Diarios De GTA 5 Online!</p>
+                            <p class="vistas">792,840 vistas  hace 6 meses</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 9-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=8V_d6Ke9Czk">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/nategentile.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilnate.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>¿Vale la pena el MAC STUDIO? (contra un PC del mismo precio...)</h3>
+                            <p class="canal">Nate Gentile</p>
+                            <p class="vistas">1.4 M de vistas  hace 9 meses</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 10-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=k3d6Q9wpo40">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/ramyrc.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilramyrc.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>I spent a year building a giant RC Airbus A380</h3>
+                            <p class="canal">Ramy RC</p>
+                            <p class="vistas">1.4 M de vistas  hace 1 mes</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 11-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=a2Ng9mR18Yk">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/lawcrime.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilcrime.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>BODYCAM: High-Speed Police Chase Ends in Collision, Gunfire on Oklahoma Highway</h3>
+                            <p class="canal">Law&Crime Network</p>
+                            <p class="vistas">9.9 M de vistas  hace 6 meses</p>
                         </div> 
                     </div>
                 </div>
+
+
                 <!--Video 12-->
                 <div class="columnavideo">
                     <!--Imagen del Video / Fila Superior-->
-                    <a href="https://www.youtube.com/watch?v=Ye5rFS33SnY&t=1s">
-                        <img class="imgvideo" src="./Iconos-Imagenes/hq720.webp" alt="Imagen del Video">
+                    <a href="https://www.youtube.com/watch?v=pRG3tPgQGOs">
+                        <img class="imgvideo" src="/Clon-YT/YT-Images/hot.jpg" alt="Imagen del Video">
                     </a>
     
                     <!--Fila Inferior-->
                     <div class="filainferiorvideo">
                         <!--Perfil de canal-->
                         <div>
-                            <img class="imgcanal" src="./Iconos-Imagenes/unnamed.jpg" alt="Perfil de Canal">
+                            <img class="imgcanal" src="/Clon-YT/YT-Images/perfilhot.jpg" alt="Perfil de Canal">
                         </div>
                         <!--Titulo, canal, y vistas-->
                         <div class="textovideo">
-                            <h3>Dicen que este hoyo es una “puerta al infierno” | ISLANDIA 🌋🔥</h3>
-                            <p class="canal">Luisito Comunica</p>
-                            <p class="vistas">1.8 M de vistas  hace 2 semanas</p>
+                            <h3>PIT MANEUVER Compilation #1</h3>
+                            <p class="canal">Hot Poursuite</p>
+                            <p class="vistas">6.9 M de vistas  hace 1 año</p>
                         </div> 
                     </div>
                 </div>
